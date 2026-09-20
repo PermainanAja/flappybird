@@ -158,10 +158,11 @@
     position:absolute;width:6px;height:6px;border-radius:50%;
   }
   .candle{
-    position:absolute;bottom:154px;width:7px;height:34px;
-    border-radius:3px;
-    background:repeating-linear-gradient(180deg,#fff 0 6px, #FF6FA5 6px 12px);
-  }
+  position:absolute;bottom:154px;width:7px;height:34px;
+  left:50%;transform:translateX(-50%);   
+  border-radius:3px;
+  background:repeating-linear-gradient(180deg,#fff 0 6px, #FF6FA5 6px 12px);
+}
   .flame{
     position:absolute;bottom:186px;width:10px;height:16px;
     left:50%;transform:translateX(-50%);
@@ -193,7 +194,7 @@
 
     <div id="startScreen" class="overlay">
       <div class="card">
-        <h1>🐤 Terbang ke 10m</h1>
+        <h1>🐤 Terbang ke 5m</h1>
         <p>Tekan tombol bulat di bawah untuk membuat burung terbang. Lewati semua pilar sampai 5 meter untuk memenangkan permainan!</p>
         <button class="btn" id="startBtn">Mulai Terbang</button>
       </div>
